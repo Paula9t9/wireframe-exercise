@@ -1,0 +1,28 @@
+/* Used this to figure out alignment: https://www.w3schools.com/css/css_align.asp */
+header {
+  position: fixed;
+  background-color: grey;
+  width: 110%;
+  margin: -15px;
+}
+
+header p {
+  margin: 20px;
+  text-align: center;
+  overflow: auto;
+  padding: 30px 10px 20px;
+  float: left;
+}
+
+header img {
+  overflow: auto;
+  margin: auto;
+  padding: 20px 5px 10px 70px;
+  float: left;
+}
+
+div {
+  margin: auto;
+  max-width: 900px;
+}
+
