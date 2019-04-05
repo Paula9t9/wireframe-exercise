@@ -21,8 +21,27 @@ header img {
   float: left;
 }
 
+main img {
+  margin: 15px;
+}
+
 div {
   margin: auto;
-  max-width: 900px;
+  max-width: 1000px;
+}
+
+section:last-child {
+  float:left;
+}
+
+section:nth-child(2) {
+  float: left;
+}
+
+footer {
+  background-color: grey;
+  width: 110%;
+  height: 50px;
+  margin: -15px;
 }
 
