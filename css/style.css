@@ -1,47 +1,60 @@
+body {
+  position: relative;
+}
+
 /* Used this to figure out alignment: https://www.w3schools.com/css/css_align.asp */
 header {
   position: fixed;
   background-color: grey;
   width: 110%;
   margin: -15px;
+  z-index: 1;
 }
 
 header p {
   margin: 20px;
   text-align: center;
   overflow: auto;
-  padding: 30px 10px 20px;
+  padding: 30px 10px 5px;
   float: left;
 }
 
 header img {
   overflow: auto;
   margin: auto;
-  padding: 20px 5px 10px 70px;
+  padding: 20px 5px 20px 0px;
   float: left;
 }
 
 main img {
   margin: 15px;
+  float: left;
 }
 
 div {
+  position: relative;
   margin: auto;
   max-width: 1000px;
+}
+
+div section {
+  position: relative;
+  float: right;
+  right: 0;
+  bottom: 0;
+  max-width: 400px;
 }
 
 section:last-child {
   float:left;
 }
 
-section:nth-child(2) {
-  float: left;
-}
-
 footer {
+  position: fixed;
   background-color: grey;
   width: 110%;
   height: 50px;
   margin: -15px;
+  bottom: 0px;
 }
 
